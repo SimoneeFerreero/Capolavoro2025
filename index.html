@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simone Ferrero</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.cdnfonts.com/css/brittany-signature" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/dm-sans" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-4 me-3" href="https://www.instagram.com/simone.feerrero?igsh=eGh2ZTVja2Q4Zjgy"
+                target="_blank" id="font-logo">
+                Simone Ferrero
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item"><a class="nav-link active" id="link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" id="link" href="#competenze">Competenze</a></li>
+                    <li class="nav-item"><a class="nav-link active" id="link" href="#istruzione">Istruzione</a></li>
+                    <li class="nav-item"><a class="nav-link active" id="link" href="#obbiettivi">Obiettivi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="container-fluid d-flex justify-content-center align-items-center">
+        <div class="text-center">
+            <img src="./img/immaginehome.jpeg" id="home-img" alt="Foto profilo" />
+            <p class="fw-bold text-white mt-3 mb-3"><span id="desc">Simone Ferrero</span></p>
+            <p class="text-white mt-3 mb-3"><span id="desc">Studente presso IIS G.VALLAURI</span></p>
+        </div>
+    </section>
+
+    <!-- Competenze -->
+    <section id="competenze" class="container-fluid">
+        <div class="row">
+            <div class="card border-0" style="width: 35rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Le mie competenze</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Cosa ho appreso durante il mio anno scolastico 24-25</h6>
+                    <p class="card-text fs-6">
+                        <strong>Durante il mio anno scolastico ho appreso diverse tecnologie:</strong> <br>
+                        <span class="badge bg-primary">1.</span> <em><strong>C</strong></em>:con sistemi e reti abbiamo
+                        approfondito questo
+                        linguaggio di programmazione, lo avevamo già visto in prima ma non usavamo molte delle funzione
+                        che abbiamo fatto questo anno; ad esempio durante la prima e la seconda abbiamo visto soltanto
+                        il codice nel main(ovvero la funzione principale), invece adesso abbiamo imparato ad usare
+                        algoritmi esterni. <br>
+                        <span class="badge bg-primary">2.</span> <em><strong>C#</strong></em>:
+                        un linguaggio del tutto nuovo per me, secondo
+                        me è la base di ogni linguaggio, sapendo c# sai più o meno come sono strutturati tutti i
+                        linguaggi e, se posso aggiungere, è il mio linguaggio preferito. <br>
+                        <span class="badge bg-primary">3.</span> <em><strong>Bootstrap</strong></em>: pur non essendo un
+                        vero e proprio
+                        linguaggio di programmazione, perchè sviluppato sulla base di html e css, mi aiuta molto con la
+                        creazione di siti web, credo che sia uno strumento davvero utile e, se usato bene,
+                        essenziale.<br>
+                        <span class="badge bg-primary">4.</span> <em><strong>HTML5</strong></em>: anche questo
+                        linguaggio, insieme a css e
+                        javascript, è del tutto nuovo, lo adoro perchè mi permette di creare siti web e web app, ovvero
+                        siti web che ci permettono di interagire con l'utente, e posso lasciare libero sfogo alla mia
+                        immaginazione. <br>
+                        <span class="badge bg-primary">5.</span> <em><strong>CSS</strong></em>: insieme ad html mi
+                        permette di creare siti web
+                        interattivi con animazioni e effetti, dipende da html per funzionare, ovvero se non abbiamo una
+                        pagina html non vedremo i diversi effetti del css.<br>
+                        <span class="badge bg-primary">6.</span> <em><strong>JavaScript</strong></em>:, questo
+                        linguaggio è molto nuovo,
+                        siccome lo abbiamo fatto principalmente solo nel pentamestre, lo trovo più complicato rispetto
+                        ad altri linguaggi, al momento sono arrivato alla creazione dinamica degli elementi, ovvero la
+                        creazioni di componenti html dinamicamente, anche il javascript dipende dall'html. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col d-flex justify-content-center align-items-center">
+                <div id="carouselExampleCaptions" class="carousel slide w-100 h-100" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                    </div>
+
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item active h-100">
+                            <img src="./img/c.png" class="d-block w-100 h-100" alt="C" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>C language</h5>
+                                <p>è un linguaggio di programmazione a uso gen... <a
+                                        href="https://it.wikipedia.org/wiki/C_(linguaggio_di_programmazione)"
+                                        class="link-light" target="_blank">vedi di più</a></p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item h-100">
+                            <img src="./img/csharp.png" class="d-block w-100 h-100" alt="C" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>C# language</h5>
+                                <p>è un linguaggio di programmazione multi-paradigma che sup... <a
+                                        href="https://it.wikipedia.org/wiki/C_sharp" class="link-light"
+                                        target="_blank">vedi di più</a></p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item h-100">
+                            <img src="./img/bootstrap.png" class="d-block w-100 h-100" alt="C" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Bootstrap</h5>
+                                <p>è una libreria di strumenti liberi per la creazione di siti e applicazioni per il
+                                    Web. Essa cont... <a href="https://it.wikipedia.org/wiki/Bootstrap_(framework)"
+                                        class="link-light" target="_blank">vedi di più</a></p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item h-100">
+                            <img src="./img/html.png" class="d-block w-100 h-100" alt="C" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>HTML5 language</h5>
+                                <p>è la quinta versione del linguaggio di formattazione HTML raccoman... <a
+                                        href="https://it.wikipedia.org/wiki/HTML5" class="link-light"
+                                        target="_blank">vedi di più</a></p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item h-100">
+                            <img src="./img/css.png" class="d-block w-100 h-100" alt="C" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>CSS language</h5>
+                                <p>è un linguaggio usato per definire la formattazione di documenti HTML, XHTML e XML,
+                                    ad ese... <a href="https://it.wikipedia.org/wiki/CSS" class="link-light"
+                                        target="_blank">vedi di più</a></p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item h-100">
+                            <img src="./img/js.png" class="d-block w-100 h-100" alt="C" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Javascript language</h5>
+                                <p>è un linguaggio di programmazione multi paradigma orientato agli eventi, utiliz... <a
+                                        href="https://it.wikipedia.org/wiki/JavaScript" class="link-light"
+                                        target="_blank">vedi di più</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">precedente</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">successiva</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid" id="download">
+        <div class="row align-items-start g-4">
+            <div class="col-md-6 bg-primary p-3" >
+                <div class="card-container">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="card custom-card text-center p-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">TPSIT:</h5>
+                                    <p class="card-text">ES-22. creazione dinamica di elementi HTML5 in JavaScript</p>
+                                    <a href="./es-downloads/ese 22 Creazione dinamica.zip"
+                                        class="btn btn-primary">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card custom-card text-center p-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Informatica:</h5>
+                                    <p class="card-text">ES-47. Lettura di un file in un form con il linguaggio C#</p>
+                                    <a href="./es-downloads/47-PrimoEsFile.zip" class="btn btn-primary">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card custom-card text-center p-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">TPSIT:</h5>
+                                    <p class="card-text">ES-35. Creazione dinamica di elementi HTML5 e modifica delle
+                                        proprieta CSS tramite JavaScript</p>
+                                    <a href="./es-downloads/Ese 35 cornice.zip" class="btn btn-primary">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card custom-card text-center p-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Informatica:</h5>
+                                    <p class="card-text">ES-47. Lettura di un file in un form con il linguaggio C#
+                                        <br><br></p>
+                                    <a href="./es-downloads/47-PrimoEsFile.zip" class="btn btn-primary">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <br><br>
+                <h5 class="card-title">Esercizi onorevoli</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Esercizi svolti durante l'anno scolastico 24-25</h6>
+                <p class="card-text">Questi sono alcuni esercizi svolti durante l'anno che ho trovato difficili e
+                    che volevo implementare per mostrare le mie competenze.
+                    <br> <br>
+                    1. Creazione dinamica di elementi HTML5 e modifica delle proprieta CSS tramite JavaScript
+                    <br> <br>
+                    2. Creazione dinamica di elementi HTML5 in JavaScript
+                    <br> <br>
+                    3. Lettura di un file in un form con il linguaggio C#
+                    <br> <br>
+                    4. Algoritmo di ricerca binaria in C#
+                </p>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- Istruzione -->
+    <section id="istruzione" class="container-fluid py-5">
+        <div class="row mb-4"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2843.2458165351636!2d7.724839176052711!3d44.55107267107367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cd59aebaaf0373%3A0x6d5a6fe9b3d3dd99!2sIIS%20Vallauri%20-%20Sede%20Associata%20%22E.%20Tesauro%22!5e0!3m2!1sit!2sit!4v1747305873920!5m2!1sit!2sit"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="card border-0">
+            <div class="card-body">
+                <h5 class="card-title">IIS G.VALLAURI</h5>
+                <h6 class="card-subtitle mb-2 text-muted">La scuola che frequento</h6>
+                <p class="card-text">
+                    Mi trovo molto bene nella mia scuola, l'IIS G. Vallauri, perché fin dal primo giorno sono riuscito a
+                    integrarmi facilmente sia con i compagni che con gli insegnanti. L’ambiente è accogliente e
+                    stimolante, e questo mi ha aiutato a sentirmi subito a mio agio.
+                    <br> <br>
+                    Ho scelto l’indirizzo di Informatica perché è una mia grande passione, e più vado avanti con il
+                    percorso, più mi rendo conto di aver fatto la scelta giusta. Le materie sono interessanti e
+                    coinvolgenti, e mi piace il modo in cui teoria e pratica si alternano, permettendomi di sviluppare
+                    competenze concrete e utili per il futuro.
+                    <br> <br>
+                    Spero che dopo il Vallauri possa continuare a studiare e a crescere nel campo dell’informatica,
+                    il mio sogno è andare all'università e lavorare come informatico.
+                    <br> <br>
+                    La scuola ha una grande preparazione al mondo del lavoro ed in questi 3 anni l'ho potuto confermare,
+                    per questo mi sento molto soddisfatto con la mia scuola.
+                </p>
+                <a href="http://www.vallauri.edu/public/ita/pagina.asp" class="card-link" target="_blank">Sito Ufficiale
+                    del vallauri</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Obiettivi -->
+    <section id="obbiettivi" class="container-fluid py-5">
+        <!-- Contenuto futuro -->
+    </section>
+</body>
+
+</html>
